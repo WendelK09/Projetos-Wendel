@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Cupuaçu</title>
+  <link rel="stylesheet" href="style3.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+
+  <style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #763396;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+
+    swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #8a247c;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<header>
+    <nav>
+       
+        <a  class="logo" href="acai_do_lira.html">Açai Do Lira</a>    
+        <ul class="menu">
+                <li><a href="acai.html">Açai</a></li>
+                <li><a href="cupuacu.html">Cupuaçu</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                
+            </ul>
+
+    </nav>
+</header>
+<body>
+  <swiper-container class="mySwiper" navigation="true">
+    <swiper-slide><div class="card-image">
+        <img src="img/cupuacu.jpg" alt="" class="card-img">
+    </div>
+ </div>
+ <div class="card-content">
+    <h2 class="nome">Cupuaçu</h2>
+    <ul class="descricao"><li>Cupuaçu Puro</li>
+        <li>Leite Condensado</li>
+        <li>Leite Ninho</li>
+        <li>Granola</li>
+        <li>Banana</li>
+    </ul>
+    <br>
+    <div>
+        <p>Tamanhos:</p>
+        <label for="300">300ml</label>
+        <input type="radio" name="Tamanhos" value="3">
+        <label for="500">500ml</label>
+        <input type="radio" name="Tamanhos" value="5">
+        <label for="750">750ml</label>
+        <input type="radio" name="Tamanhos" value="7">
+        <label for="1L">1L</label>
+        <input type="radio" name="Tamanhos" value="L">
+    </div>
+    <button class="button">+ Adicionar</button>
+ </div></swiper-slide>
+    <swiper-slide>     <div class="card-image">
+        <img src="img/acaiecupuacu.jpg" alt="" class="card-img">
+    </div>
+ </div>
+ <div class="card-content">
+    <h2 class="nome">Açai Com Cupuaçu</h2>
+    <ul class="descricao"><li>Açai Puro</li>
+        <li>Cupuaçu Puro</li>
+        <li>Granola</li>
+        <li>Leite Ninho</li>
+        <li>Leite Condensado</li>
+    </ul>
+    <br>
+    <div>
+        <p>Tamanhos:</p>
+        <label for="300">300ml</label>
+        <input type="radio" name="Tamanhos" value="3">
+        <label for="500">500ml</label>
+        <input type="radio" name="Tamanhos" value="5">
+        <label for="750">750ml</label>
+        <input type="radio" name="Tamanhos" value="7">
+        <label for="1L">1L</label>
+        <input type="radio" name="Tamanhos" value="L">
+    </div>
+    <button class="button">+ Adicionar</button>
+ </div></swiper-slide>
+  </swiper-container>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+</body>
+
+</html>
